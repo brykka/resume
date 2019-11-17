@@ -1,0 +1,9 @@
+h3, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
