@@ -7,11 +7,11 @@
 
 .left-panel:after {
   content: '';
-  height: 40%; //You can change this if you want smaller/bigger borders
-  width: 30px;
+  height: 93%;
+  top: 2%;
+  width: 3px;
   position: absolute;
   right: 0;
-  top: 30%; // If you want to set a smaller height and center it, change this value
   background-color: #57c392; // The color of your border
 }
 
