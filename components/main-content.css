@@ -11,3 +11,7 @@ li {
 .description {
   padding: 10px;
 }
+
+.main-content h3 {
+  text-align: center;
+}

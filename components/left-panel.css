@@ -1,6 +1,22 @@
 .left-panel {
   text-align: left;
   width: 30vw;
+/*  border-right: solid 4px #57c392;
+*/  position: relative;
+}
+
+.left-panel:after {
+  content: '';
+  height: 40%; //You can change this if you want smaller/bigger borders
+  width: 30px;
+  position: absolute;
+  right: 0;
+  top: 30%; // If you want to set a smaller height and center it, change this value
+  background-color: #57c392; // The color of your border
+}
+
+.left-panel h3 {
+  text-align: left;
 }
 
 .volunteer {
