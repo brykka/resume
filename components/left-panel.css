@@ -9,7 +9,7 @@
   content: '';
   height: 93%;
   top: 2%;
-  width: 3px;
+  width: 2px;
   position: absolute;
   right: 0;
   background-color: #57c392; // The color of your border
@@ -19,6 +19,6 @@
   text-align: left;
 }
 
-.volunteer {
+.volunteer li {
   text-align: left;
 }

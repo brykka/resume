@@ -1,11 +1,8 @@
-li {
+.main-content li {
   display: flex;
   text-align: center;
   justify-content: space-around;
   width: auto;
-}
-
-.info {
 }
 
 .description {
