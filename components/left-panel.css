@@ -1,8 +1,7 @@
 .left-panel {
   text-align: left;
   width: 30vw;
-/*  border-right: solid 4px #57c392;
-*/  position: relative;
+  position: relative;
 }
 
 .left-panel:after {
@@ -17,6 +16,9 @@
 
 .left-panel h3 {
   text-align: left;
+}
+.contact p {
+  line-height: 0.3;
 }
 
 .volunteer li {
