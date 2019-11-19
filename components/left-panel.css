@@ -1,7 +1,7 @@
 .left-panel {
   text-align: left;
-  width: 30vw;
   position: relative;
+  padding: 10px;
 }
 
 .left-panel:after {
@@ -11,7 +11,7 @@
   width: 2px;
   position: absolute;
   right: 0;
-  background-color: #57c392; // The color of your border
+  background-color: #57c392;
 }
 
 .left-panel h3 {
@@ -23,4 +23,6 @@
 
 .volunteer li {
   text-align: left;
+  display: flex;;
+  flex-direction: column;
 }

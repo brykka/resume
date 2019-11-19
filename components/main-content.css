@@ -12,3 +12,7 @@
 .main-content h3 {
   text-align: center;
 }
+
+.projects {
+  border-bottom: solid 2px #57c392;
+}
