@@ -13,10 +13,6 @@
   text-align: center;
 }
 
-.projects {
-/*  border-bottom: solid 2px #57c392;
-*/}
-
 .projects:after {
     content: ""; /* This is necessary for the pseudo element to work. */
     display: block; /* This will put the pseudo element on its own line. */
