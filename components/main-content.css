@@ -1,23 +1,18 @@
 .main-content li {
-  display: flex;
+  display: block;
   text-align: center;
   justify-content: space-around;
   width: auto;
-}
-
-.description {
-  padding: 10px;
 }
 
 .main-content h3 {
   text-align: center;
 }
 
-.projects:after {
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 90%; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 2px solid #57c392; /* This creates the border. Replace black with whatever color you want. */
+.description {
 }
+
+.projects .info {
+  justify-content: space-around;
+}
+

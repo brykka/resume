@@ -1,5 +1,6 @@
 .left-panel {
   text-align: left;
+  position: relative;
   padding: 10px;
 }
 
@@ -16,16 +17,6 @@
   right: 0;
   background-color: #57c392;
 }
-
-/*.left-panel:after {
-  content: '';
-  height: 93%;
-  top: 2%;
-  width: 2px;
-  position: absolute;
-  right: 0;
-  background-color: #57c392;
-}*/
 
 .left-panel h3 {
   text-align: left;
