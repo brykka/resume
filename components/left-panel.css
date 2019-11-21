@@ -4,11 +4,7 @@
   padding: 10px;
 }
 
-.boxes {
-  position: relative;
-}
-
-.boxes:after {
+.left-panel:after {
   content: '';
   height: 93%;
   top: 2%;
@@ -28,12 +24,16 @@
   flex-direction: column;
 }
 
+.contact, .stack, .education {
+    flex-direction: column;
+    height: 20vh;
+    align-items: flex-start;
+}
+
 .contact, .stack:after {
     content: ""; /* This is necessary for the pseudo element to work. */
     display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 90%; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
+    padding-bottom: 40px;
     border-bottom: 2px solid #57c392; /* This creates the border. Replace black with whatever color you want. */
 }
 
