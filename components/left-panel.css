@@ -29,7 +29,7 @@
     align-items: flex-start;
 }
 
-.contact, .stack:after {
+.blurb, .contact, .stack:after {
     content: ""; /* This is necessary for the pseudo element to work. */
     display: block; /* This will put the pseudo element on its own line. */
     padding-bottom: 30px;
