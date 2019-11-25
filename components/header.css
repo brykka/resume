@@ -1,7 +1,10 @@
 #header {
   color: white;
   background-color: #57c392;
-  display: flex;
   padding: 10px;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.name {
+  display: flex;
 }
